@@ -31,7 +31,7 @@ class Program
 
         /*======== Entrada de Dados =========*/
         Console.Write("Qual será o nome do seu personagem: ");
-        nome = Console.ReadLine();
+        nome = Console.ReadLine() ?? string.Empty;
 
         Console.Write("Qual a idade do seu personagem: ");
         int.TryParse(Console.ReadLine(), out idade);
@@ -40,10 +40,10 @@ class Program
         byte.TryParse(Console.ReadLine(), out nivelInicial);
 
         Console.Write("Qual a classe do seu personagem: ");
-        classe = Console.ReadLine();
+        classe = Console.ReadLine() ?? string.Empty;
 
         Console.Write("Qual a raça do seu personagem: ");
-        raca = Console.ReadLine();
+        raca = Console.ReadLine() ?? string.Empty;
         /*===================================*/
 
         /*========= Saída de Dados ==========*/
