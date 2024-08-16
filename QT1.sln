@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QT1", "QT1\QT1.csproj", "{5EF5F9AE-79E2-42BD-847A-D7BE4BDDD4A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QT2", "QT2\QT2.csproj", "{76DD28A3-0594-4AB4-A119-27AC80F68CFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5EF5F9AE-79E2-42BD-847A-D7BE4BDDD4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF5F9AE-79E2-42BD-847A-D7BE4BDDD4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF5F9AE-79E2-42BD-847A-D7BE4BDDD4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DD28A3-0594-4AB4-A119-27AC80F68CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DD28A3-0594-4AB4-A119-27AC80F68CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DD28A3-0594-4AB4-A119-27AC80F68CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DD28A3-0594-4AB4-A119-27AC80F68CFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
