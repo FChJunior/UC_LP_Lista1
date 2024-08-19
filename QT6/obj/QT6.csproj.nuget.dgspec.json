@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT5\\QT5.csproj": {}
+    "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT6\\QT6.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT5\\QT5.csproj": {
+    "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT6\\QT6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT5\\QT5.csproj",
-        "projectName": "QT5",
-        "projectPath": "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT5\\QT5.csproj",
+        "projectUniqueName": "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT6\\QT6.csproj",
+        "projectName": "QT6",
+        "projectPath": "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT6\\QT6.csproj",
         "packagesPath": "C:\\Users\\jnior\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT5\\obj\\",
+        "outputPath": "D:\\Documentos\\Técnico em Programação de Jogos Digitais\\Material das UCs\\2 - Módulo Integrador Introdutório\\4 - Lógica de Programação\\2 - Listas de Exercícios (Práticos)\\Respostas\\QT6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jnior\\AppData\\Roaming\\NuGet\\NuGet.Config"
