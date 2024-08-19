@@ -17,43 +17,45 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        /*======= Variáveis Auxiliares ======*/
-        int inimigosDerrotados;
-        int pontuacaoPorInimigo;
-        int bonusMissao;
-        double multiplicadorTipoInimigo;
-        double multiplicadorDificuldade;
-        double pontuacaoFinal;
-        /*===================================*/
+  static void Main(string[] args)
+  {
+    /*======= Variáveis Auxiliares ======*/
+    int inimigosDerrotados;
+    int pontuacaoPorInimigo;
+    int bonusMissao;
+    double multiplicadorTipoInimigo;
+    double multiplicadorDificuldade;
+    double pontuacaoFinal;
+    /*===================================*/
 
-        /*======== Entrada de Dados =========*/
-        Console.Write("Número de inimigos derrotados: ");
-        int.TryParse(Console.ReadLine(), out inimigosDerrotados);
+    /*======== Entrada de Dados =========*/
+    Console.WriteLine("======== Informações da Missão ========\n");
+    Console.Write("Número de inimigos derrotados: ");
+    int.TryParse(Console.ReadLine(), out inimigosDerrotados);
 
-        Console.Write("Pontuação por inimigo: ");
-        int.TryParse(Console.ReadLine(), out pontuacaoPorInimigo);
+    Console.Write("Pontuação por inimigo: ");
+    int.TryParse(Console.ReadLine(), out pontuacaoPorInimigo);
 
-        Console.Write("Bônus por missão: ");
-        int.TryParse(Console.ReadLine(), out bonusMissao);
+    Console.Write("Bônus por missão: ");
+    int.TryParse(Console.ReadLine(), out bonusMissao);
 
-        Console.Write("Multiplicador para tipo de inimigo: ");
-       double.TryParse(Console.ReadLine(), out multiplicadorTipoInimigo);
+    Console.Write("Multiplicador para tipo de inimigo: ");
+    double.TryParse(Console.ReadLine(), out multiplicadorTipoInimigo);
 
-        Console.Write("Multiplicador para dificuldade: ");
-        double.TryParse(Console.ReadLine(), out multiplicadorDificuldade);
-        /*===================================*/
+    Console.Write("Multiplicador para dificuldade: ");
+    double.TryParse(Console.ReadLine(), out multiplicadorDificuldade);
+    /*===================================*/
 
-        /*========= Cálculo da Pontuação ==========*/
-        pontuacaoFinal = inimigosDerrotados * multiplicadorTipoInimigo * multiplicadorDificuldade * pontuacaoPorInimigo + bonusMissao;
-        /*=========================================*/
+    /*========= Cálculo da Pontuação ==========*/
+    pontuacaoFinal = inimigosDerrotados * multiplicadorTipoInimigo * multiplicadorDificuldade * pontuacaoPorInimigo + bonusMissao;
+    /*=========================================*/
 
-        /*========= Saída de Dados ==========*/
-        Console.WriteLine($"\nPontuação Final: {pontuacaoFinal}");
-        /*===================================*/
+    /*========= Saída de Dados ==========*/
+    Console.WriteLine("\n========= Missão Concluida ==========\n");
+    Console.WriteLine($"Pontuação Final: {pontuacaoFinal}");
+    /*===================================*/
 
-        Console.WriteLine("\nPressione ENTER para Fechar");
-        Console.ReadLine();
-    }
+    Console.WriteLine("\nPressione ENTER para Fechar");
+    Console.ReadLine();
+  }
 }
