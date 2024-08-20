@@ -15,7 +15,7 @@
 - Crie um repositório público no GitHub e disponibilize o link para seu professor.
 - Use um cabeçalho em cada código fonte. Ex.:
 
-    ```c
+    ```c#
     /*-------------------------------------------------------------------
     Questão 1: Informações do Personagem
     • Contextualização: Em um jogo de RPG, o jogador precisa inserir 
